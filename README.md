@@ -42,6 +42,19 @@ Terminologies:
     .gitignore: A plain text file that tells Git which files or directories to ignore in a project
         Privacy: Help hide important local information when project is uploaded into github
 
+    --- Branching & Collaboration ---
+
+    Branch: The series of commits that were made in parallel with a designated "main" series. The act of "Branching" is essentially creating a copy of a commit node, then making changes to that copied branch. The new changes to the "new Branch" will not impact the codes of the main branch". This streamline collaboration, and prevents accidental changes to the source code that may corrupt its functioning
+
+        Diagram showcasing the branching logic:
+
+        ---[Commit 1]---[Commit 2]---o---[Commit 3]---[Commit 4]-----o----[Merged Commit 5]---
+                                     |___[Commit A1]___[Commit A2]___|
+
+    Merge: The action of combining multiple branches, perhaps created for collaboration purposes, into one main branch
+
+    HEAD: A concept that refer to the specific commit that the current repository is located on. For example, in a theoretical tree with a branching point at commit 5, and 2 commits under the subranch, the user could select the current Head could be on "commit #5" of the main branch.
+
 
 --- New Terminologies ---
 
