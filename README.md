@@ -34,6 +34,8 @@ Terminologies:
 
     --- Navigation & Inspection ---
 
+    checkout: A functionality within the source control panel that allows you to reposition the HEAD into a designated version of your repository, useful if you want to make changes to a specific commit on a branch, or if you are switching back and fourth between branches.
+
     checkout (Detached): A functionality within the source control panel of VScode that allows you to view a past version of the code. 
         Not suited for creating new branch, but simply serve inspection purposes
 
